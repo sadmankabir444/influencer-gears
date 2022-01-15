@@ -1,0 +1,108 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ /* common style or utilities */
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #e6e6e6;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#big-container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+.camera-1{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.start-journey{
+    font-size: 50px;
+}
+.go-trip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.preebook-now{
+    text-decoration: none;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    padding-left: 30px;
+    
+
+}
+.populer-product{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 100p0x;
+}
+   /* ------------------
+        product info
+    ------------------- */
+
+    .populer-product{
+        font-size: 45px;
+    }
+
+    .populer-collection{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 24px;
+    }
+    .product{
+        border: 5px solid white;
+        padding: 20px;
+        box-shadow: 4px;
+        
+    }
+    .product .product-banner img{
+
+        width: 224px;
+        height: 104px;
+    }
+    .product-ratting{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .fa-star{
+        font-size: 12px;
+    }
+    .fa-star.filled{
+        color: #ffc014;
+    }
+    .fa-star.empty{
+        color: 
+        #AEAEAE;
+    }
+    .see-more{
+        padding-left: 80%;
+    }
+    footer h2{
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    footer p{
+        color: white;
+        text-align: center;
+    }
+    .fab{
+        color: white;
+    }
+    .footer-add{
+        background-color: black;
+        text-align: center;
+        
+    }
